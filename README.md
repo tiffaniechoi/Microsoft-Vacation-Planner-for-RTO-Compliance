@@ -2,6 +2,8 @@
 
 *This is a personal tool to help Microsoft employees plan their vacation while staying compliant with Return-to-Office requirements.*
 
+Access site here: https://msft-rto-planner.vercel.app/
+
 ## Preview
 
 ![RTO Planner - Calendar View](public/preview.png)
