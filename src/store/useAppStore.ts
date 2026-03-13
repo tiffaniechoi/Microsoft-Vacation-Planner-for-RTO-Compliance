@@ -155,8 +155,6 @@ export const useAppStore = create<AppState>()(
           const { days, settings } = get()
           const day = days[date]
           if (!day) return
-          const dayOfWeek = parseDate(date).getDay()
-          const isOnsite = settings.onsiteDaysOfWeek.includes(dayOfWeek)
           const newDay: DayRecord = {
             ...day,
             status,
